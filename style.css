@@ -1,0 +1,183 @@
+/* fontes de letra
+ "Cinzel", serif;
+ "Almendra", serif;
+ 
+ PALETA DE CORES
+    #d8eff3;
+     #caf0f8
+    #aee5f0;
+    #90e0ef
+    #00b4d8
+    #0077b6
+    #03045e
+ */
+
+body {
+    padding-left: 20%;
+    font-family: "Almendra", serif;
+    background-color: #caf0f8;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #caf0f8;
+}
+
+h1 {
+    width: 100%;
+    font-size: min(15vw, 100px);
+    text-align: center;
+    color: #0077b6;
+
+}
+
+a {
+    font-size: 50px;
+    color: #00b4d8;
+    font-family: "Almendra", serif;
+
+}
+
+li a {
+    font-size: 40px;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+}
+
+video {
+    width: 95%;
+    height: 99%;
+}
+
+
+ul {
+    margin: 0%;
+    margin-bottom: 2%;
+    padding: 0;
+    border: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 2vw;
+}
+
+header {
+    padding-left: 100%;
+    background-color: #d8eff3;
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+body {
+    font-family: "Almendra", serif;
+    font-weight: 800;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+main {
+    padding: 2%;
+}
+
+
+nav a {
+    color: #00b4d8 (56, 1, 67);
+    text-decoration: none;
+    font-size: 45px;
+
+}
+
+nav li a {
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    box-sizing: border-box;
+}
+
+
+#grande {
+    background-color: #00b4d8 (207, 172, 59);
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+
+#grande ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menu-hamburguer {
+    text-align: left;
+    display: none;
+    position: fixed;
+    height: auto;
+    width: 100%;
+}
+
+#menu-hamburguer ul {
+    background-color: #00b4d8 (207, 173, 59, 0.891);
+    list-style-type: none;
+    padding-left: 3%;
+    width: 30%;
+    height: 100vh;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+#menu-hamburguer li {
+    margin: 2%;
+}
+
+
+#menu-hamburguer input[type='checkbox']:not(:checked)+ul {
+    display: none;
+}
+
+#menu-hamburguer input[type='checkbox'] {
+    display: none;
+}
+
+
+#menu-hamburguer label {
+    background-color: #00b4d8 (207, 172, 59);
+    padding: 2%;
+    font-size: 20px;
+    text-align: start;
+    padding: 0.5em;
+}
+
+
+@media (orientation: portrait) {
+    #menu-hamburguer {
+        display: block;
+    }
+
+    #grande {
+        display: none;
+    }
+
+    main {
+        padding-top: 20%;
+    }
+
+}
